@@ -1,0 +1,49 @@
+admin(
+    id
+    nome
+    email
+    responsavel por
+    data registro
+    senha
+)
+
+monitor(
+    id
+    nome
+    email
+    senha
+    monitor de
+    departamento
+    posts
+    data registro
+)
+
+post(
+    id
+    titulo
+    descrição
+    imagens
+    topicos
+    monitor
+    data criação
+)
+
+topico(
+    id
+    nome
+)
+
+--------------------------------
+
+monitorPost(
+    id
+    idMonitor
+    idPost
+)
+
+postTopico(
+    id 
+    idTopico
+    idPost
+)
+

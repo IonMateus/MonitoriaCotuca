@@ -7,6 +7,7 @@
     <title>Monitoria Cotuca</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://www.unicamp.br/unicamp/sites/default/files/inline-images/cotuca_transparente_logo-250x250_1.png">
 </head>
 
 <body>
@@ -17,7 +18,8 @@
             <h1 style="color:var(--orange)" class="mx-5 text-2xl font-bold">Monitoria Cotuca</h1>
         </div>
         <div class="flex justify-between items-center">
-            <button style="background-color: var(--orange);" class="py-2 px-3 mx-10 rounded">Sou monitor/professor</button>
+            <a href="">Informações</a>
+            <button onclick="window.location.href='./signup-monitor.html'" style="background-color: var(--orange);" class="py-2 px-3 mx-10 rounded">Sou monitor</button>
             <button onclick="alternarTema()" class="bg-white py-2 px-2 rounded-full">
             <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1vb24iPjxwYXRoIGQ9Ik0xMiAzYTYgNiAwIDAgMCA5IDkgOSA5IDAgMSAxLTktOVoiLz48L3N2Zz4=">
             </button>
@@ -28,9 +30,11 @@
         <div width="100px" class="m-5 p-4 rounded shadow" style="background-color: rgb(206, 206, 206);"></div>
     </div>
 
+    <!--<button class=" rounded-full  m-5" style="background-color: var(--orange);padding: 10px;position: fixed; bottom: 0px; left: 0px;">Info</button>
+    -->
     <div class="m-10">
         <div class="m-5 p-4 rounded shadow" style="background-color: rgb(206, 206, 206);">
-            <h1 class="font-bold">Lorem</h1>
+            <a class="font-bold underline text-red-600" href="./post.html">Lorem</a>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptate similique sed pariatur modi veniam ab, neque dolorum molestias enim aperiam necessitatibus sit ipsum tempora cum, explicabo a quidem rerum.</p>
         </div>
         <div class="m-5 p-4 rounded shadow" style="background-color: rgb(206, 206, 206);">
@@ -60,6 +64,9 @@
     </div>
 
 
+    <footer class="bg-red-300 p-4 flex justify-center">
+        <i class="font-bold text-black ">Por Ion Mateus, PD23</i>
+    </footer>
 
     <script>
         function alternarTema() {

@@ -7,3 +7,14 @@
 body{
     background-color: var(--main-color);
 }
+
+
+#form{
+    background-color: var(--orange);
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
